@@ -1,6 +1,19 @@
 extends head
 
 block content
-	.background-image(style="background: url(img/seattle_skyline.jpg);background-position-y: 40%; background-repeat: no-repeat; background-size: cover;")
+	.background-image(style="background: url(img/seattle_skyline.jpg);background-position-y: 35%; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;")
+		.title-pane-alpha
+			h1#name Sanjay Sagar
+			h2#title Full Stack Web Developer
+		.background-dark-red
+			.about-me-pane
+				.container
+					.row
+						.col-md-6.col-lg-6
+							h1 About Me
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolorem, ab odio consectetur, quis corporis ratione laudantium dignissimos perferendis, excepturi beatae explicabo consequatur molestias officia labore recusandae dolorum asperiores dicta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aut optio dolore id libero error, laborum quae cupiditate nostrum asperiores perspiciatis vitae sequi, sint iure autem beatae facere blanditiis dignissimos.
+						.offset-md-3.offset-lg-3
+							img.img-responsive#picture(src="http://placehold.it/400x400")
+	.background-red
 		.title-pane
-			h1 Full Stack Web Developer
+			h2#title Resume
