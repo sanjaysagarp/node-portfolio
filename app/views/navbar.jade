@@ -1,1 +1,15 @@
-header#top.main-header.navbar.navbar-static-top.bs-docs-nav(role='banner')
+nav.navbar.navbar-default.sub-nav
+	.container
+		.navbar-header
+			button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand.navbar-image(href='/'): img(src='/img/icon.png')
+		.navbar-collapse.collapse
+			ul.nav.navbar-nav
+				li: a(href='/blah') Home
+				li: a(href='/blah') Resume
+				li: a(href='/blah') Works
+				li: a(href='/blah') Contact

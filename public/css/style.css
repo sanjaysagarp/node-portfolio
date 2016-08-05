@@ -74,7 +74,7 @@ body {
 }
 
 #body {
-	background-color: #b5b5b5;
+	background-color: #FFFFFF;
 }
 colors {
 	color: #b31a1d;
@@ -82,4 +82,34 @@ colors {
 	color: #000000;
 	color: #313131;
 	color: #b5b5b5;
+}
+
+nav {
+	position: fixed;
+	background-color: #FFFFFF;
+}
+
+.title-pane {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+	background-color: rgba(255,255,255,.5);
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	padding-left: 0;
+}
+.navbar-brand > img {
+    display: inline-block;
+}
+
+.navbar-image {
+	padding: 8px;
+}
+
+.navbar-image img {
+	height: 100%;
 }
