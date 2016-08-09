@@ -4,6 +4,7 @@ var express = require('express');
 var glob = require('glob');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+var favicon = require('serve-favicon');
 var config = require('./config/config');
 
 var app = express();
@@ -11,6 +12,7 @@ var app = express();
 app.set('views', config.root + 'app/views');
 app.set('view engine', 'jade');
 
+app.use(favicon('public/img/icon.png'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
