@@ -98,6 +98,10 @@ body {
 .background-gray {
 	background-color: #b5b5b5;
 }
+
+.background-black {
+	background-color: #000000;
+}
 colors {
 	color: #b31a1d;
 	color: #751b1a;
@@ -125,6 +129,15 @@ nav {
 	display: block;
 	margin: 0 auto;
 }
+
+.footer-pane {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
 
 .works-pane {
 	padding-top: 5%;
@@ -196,6 +209,13 @@ img { max-width: 100%; }
 	padding-bottom: 10px;
 }
 
+hr.line {
+    border: 0;
+    height: 1px;
+	margin-top: 5em;
+    background: #fff;
+    background-image: linear-gradient(to right, #000000, #fff, #000000);
+}
 
 /******************************************************/
 /********************* Icons **************************/
