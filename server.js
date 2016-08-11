@@ -12,7 +12,7 @@ var app = express();
 app.set('views', config.root + 'app/views');
 app.set('view engine', 'jade');
 
-app.use(favicon('public/img/icon.png'));
+app.use(favicon('public/img/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
