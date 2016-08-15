@@ -1,15 +1,16 @@
 nav.navbar.navbar-default.sub-nav
 	.container
-		.navbar-header
-			button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-				span.sr-only Toggle navigation
-				span.icon-bar
-				span.icon-bar
-				span.icon-bar
-			a.navbar-brand.navbar-image(href='/'): img(src='/img/icon.png')
-		.navbar-collapse.collapse
-			ul.nav.navbar-nav
-				li: a(href='/blah') Home
-				li: a(href='/blah') Resume
-				li: a(href='/blah') Works
-				li: a(href='/blah') Contact
+		#header
+			.navbar-header
+				button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand.navbar-image(href='/'): img(src='/img/icon.png')
+			.navbar-collapse.collapse
+				ul.nav.navbar-nav
+					li.current: a(href='#aboutMe') About Me
+					li: a(href='#resume') Resume
+					li: a(href='#works') Works
+					li: a(href='#contact') Contact

@@ -1,8 +1,11 @@
 extends head
 
+append js
+	script(src='/js/index.js')
+
 block content
 	.background-image(style="background: url(img/seattle_skyline.jpg);background-position-y: 35%; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;")
-		.title-pane-alpha
+		.title-pane-alpha#aboutMe
 			h1#name Sanjay Sagar
 			h2#title Full Stack Web Developer
 		.background-dark-red-alpha
@@ -15,7 +18,7 @@ block content
 						.offset-md-3.offset-lg-3
 							img.img-responsive#picture(src="http://placehold.it/400x400")
 	.background-red
-		.title-pane
+		.title-pane#resume
 			h2#title Resume
 	.background-image(style="background: url(img/seattle_skyline.jpg);background-position-y: 35%; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;")
 		.background-gray-alpha
@@ -64,7 +67,7 @@ block content
 							li Explored various Tree traversal methods and searching/sorting algorithms
 							li Studied asymptotic algorithm analysis with Big O notation
 					br
-	.background-dark-gray
+	.background-dark-gray#works
 		.title-pane
 			h2#title Works
 	.background-dark-red.works-pane
@@ -76,7 +79,7 @@ block content
 					img.img-responsive#picture(src="http://placehold.it/400x400")
 				.col-md-4.col-lg-4
 					img.img-responsive#picture(src="http://placehold.it/400x400")
-	.background-black
+	.background-black#contact
 		.footer-pane
 			h2#title Contact
 			hr.line

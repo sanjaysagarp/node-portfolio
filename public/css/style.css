@@ -6,6 +6,11 @@ body {
 	font-family: 'Raleway','Open Sans', sans-serif;
 }
 
+* {
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+}
+
 #container {
 	min-height:100%;
 	position:relative;
@@ -155,6 +160,14 @@ body {
 }
 .navbar {
 	margin-bottom: 0px;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 500;
+}
+
+.navbar-default {
+	border: none;
 }
 .navbar-brand {
 	padding-left: 0;
@@ -216,6 +229,14 @@ hr.line {
     background: #fff;
     background-image: linear-gradient(to right, #000000, #fff, #000000);
 }
+
+/*#header {
+	position: fixed;
+	top: 0;
+	z-index: 500;
+	height: 45px;
+	width: 100%;
+}*/
 
 /******************************************************/
 /********************* Icons **************************/
