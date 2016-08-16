@@ -4,6 +4,7 @@ var express = require('express');
 var glob = require('glob');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 var favicon = require('serve-favicon');
 var config = require('./config/config');
 

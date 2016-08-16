@@ -1,7 +1,7 @@
 extends head
 
 append js
-	script(src='/js/index.js')
+	script(src='/js/index.js', defer="defer")
 
 block content
 	.background-image(style="background: url(img/seattle_skyline.jpg);background-position-y: 35%; background-repeat: no-repeat; background-size: cover;background-attachment: fixed;")
@@ -16,7 +16,8 @@ block content
 							h1 About Me
 							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolorem, ab odio consectetur, quis corporis ratione laudantium dignissimos perferendis, excepturi beatae explicabo consequatur molestias officia labore recusandae dolorum asperiores dicta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi aut optio dolore id libero error, laborum quae cupiditate nostrum asperiores perspiciatis vitae sequi, sint iure autem beatae facere blanditiis dignissimos.
 						.offset-md-3.offset-lg-3
-							img.img-responsive#picture(src="http://placehold.it/400x400")
+							#pictureSpacing
+								img.img-responsive#picture(src="img/Sanjay.jpg")
 	.background-red
 		.title-pane#resume
 			h2#title Resume
@@ -73,17 +74,37 @@ block content
 	.background-dark-red.works-pane
 		.container
 			.row
-				.col-md-4.col-lg-4
-					img.img-responsive#picture(src="http://placehold.it/400x400")
-				.col-md-4.col-lg-4
-					img.img-responsive#picture(src="http://placehold.it/400x400")
-				.col-md-4.col-lg-4
-					img.img-responsive#picture(src="http://placehold.it/400x400")
+				.col-md-4.col-lg-4#list
+					.row
+						button.btn.btn-primary Co-Aud
+					.row
+						h3 STF
+					.row
+						h3 STF Infographic
+				.col-md-4.col-lg-4#list
+					.row
+						a(href="http://www.co-aud.io", target="_blank")
+							img.img-responsive#picture(src="img/coaud.png")
+				.col-md-4.col-lg-4#list
+					.row
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque magni harum alias sapiente voluptas pariatur, in architecto qui amet esse voluptatem officia. Autem alias aliquid provident labore, voluptatem eveniet ad!
+			
+			
+			
+			//- .row
+			//- 	.col-md-4.col-lg-4
+			//- 		a(href="http://www.co-aud.io", target="_blank")
+			//- 			img.img-responsive#picture(src="img/coaud.png")
+			//- 	.col-md-4.col-lg-4
+			//- 		a(href="https://www.uwstf.org", target="_blank")
+			//- 			img.img-responsive#picture(src="img/stf.png")
+			//- 	.col-md-4.col-lg-4
+			//- 		a(href="/projects/info.pdf", target="_blank")
+			//- 			img.img-responsive#picture(src="img/infographic.png")
 	.background-black#contact
 		.footer-pane
 			h2#title Contact
 			hr.line
-			p Home Address: 13428 SE 184th St. Renton, WA
 			p Email: sagas@uw.edu
 			p Phone Number: (206) - 853 - 9171
 			a.btn.azm-social.azm-size-64.azm-circle.azm-linkedin(href="https://www.linkedin.com/in/sanjaysagarp", target="_blank")

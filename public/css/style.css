@@ -75,9 +75,22 @@ body {
 	background-color: #FFFFFF;
 }
 
-#picture {
+#pictureSpacing {
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+#description {
+	padding-left: 8%;
+	padding-top: 5%;
+}
+
+#list {
+	padding: 3%;
+}
+
+#picture {
+	border: 1px solid #FFFFFF;
 }
 
 .background-dark-gray {
