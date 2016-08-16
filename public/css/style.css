@@ -6,7 +6,7 @@ body {
 	font-family: 'Raleway','Open Sans', sans-serif;
 }
 
-* {
+nav {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 .background-dark-red-alpha {
-	background-color: rgba(117,27,26,.5);
+	background-color: rgba(117,27,26,.6);
 }
 
 .background-dark-red {
