@@ -19,7 +19,7 @@ $(function() {
 
 		$('#image').html('<a href="http://www.co-aud.io" target="_blank"><img id="picture" src="img/coaud.png" class="img-responsive"></a>');
 
-		$('#description').html('Co-Aud focuses on fostering a creative incubator for those interested in animating, game developing, and voice acting. Co-Aud aims to create a simple interface that will make collaborating between content creators and voice actors as easy as possible. Co-Aud will streamline the process for content creators to post an opportunity and to find the right voice actors/actresses the role. In addition, this will provide voice actors/actresses a way to increase their experience and skills. Not only will Co-Aud act as a central hub, it will also challenge the community with monthly contests. The goal is to connect communities in an organized and efficient manner to reach out and collaborate on communal projects. We would also like to provide a platform through which amateur voice actors can showcase their talents and contact others who are trying to get into the industry, and network with content creators who provide projects and feedback.');
+		$('#description').html('<p>Co-Aud focuses on fostering a creative incubator for those interested in animating, game developing, and voice acting. Co-Aud aims to create a simple interface that will make collaborating between content creators and voice actors as easy as possible. Co-Aud will streamline the process for content creators to post an opportunity and to find the right voice actors/actresses the role. </p><p>Co-Aud was built using Golang, Mongodb, and jQuery. This website was created by Sanjay Sagar, Theo Chin, Jenna Han and Sean Cheong.</p>');
 	});
 
 	$('#infoButton').bind('click',function(e){
@@ -28,7 +28,7 @@ $(function() {
 		$('#infoButton').addClass("selected");
 
 		$('#image').html('<a href="/projects/info.pdf" target="_blank"><img id="picture" src="img/infographic.png" class="img-responsive"></a>');
-		$('#description').html('Infographic description');
+		$('#description').html('<p>This infographic is an expenditure breakdown of proposals in the past years and showcases the variety of departments that the Student Technology Fee Committee funds. In addition, it explains how an individual can request funding for a resource to be available for the students at the University of Washington.</p>');
 	});
 
 	$('#stfButton').bind('click',function(e){
@@ -37,7 +37,7 @@ $(function() {
 		$('#stfButton').addClass("selected");
 
 		$('#image').html('<a href="https://www.uwstf.org" target="_blank"><img id="picture" src="img/stf.png" class="img-responsive"></a>');
-		$('#description').html('STF description');
+		$('#description').html('<p>The Student Technology Fee is a fund established to supplement the availability of technology to UW students. This fund provides for capital investments in technology and projects that improve students’ educational opportunities. The Committee solicits proposals from campus units for projects that meet the technology needs of students. These awards are intended to be one-time sources of funding. </p><p>The STF website was built this last year using Node.js with Express, MySQL and jQuery.</p>');
 	});
 
 	function unbindButtons() {
