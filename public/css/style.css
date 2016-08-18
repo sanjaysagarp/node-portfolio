@@ -91,12 +91,8 @@ nav {
 #picture {
 	border: 1px solid #FFFFFF;
 }
-
-button {
-	width: 350px;
-}
-
 .button {
+	width: 350px;
 	background-color: #751b1a;
 	color: #FFFFFF;
 	border: .5px solid #FFFFFF;
