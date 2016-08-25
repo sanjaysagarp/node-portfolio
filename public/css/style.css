@@ -6,6 +6,21 @@ body {
 	font-family: 'Raleway','Open Sans', sans-serif;
 }
 
+@media(max-width:768px) {
+	#name {
+		margin-top: 1em;
+		margin-bottom: 0;
+	}
+	.button {
+		width: 300px;
+		background-color: #751b1a;
+		color: #FFFFFF;
+		border: .5px solid #FFFFFF;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+	}
+}
+
 nav {
   border-radius: 0 !important;
   -moz-border-radius: 0 !important;
@@ -82,6 +97,7 @@ nav {
 
 .list {
 	padding: 3%;
+	margin: 10px;
 }
 
 #buttons {
@@ -218,7 +234,7 @@ body {
 }
 
 #title {
-	display: inline;
+	display: inline-flex;
 	border: .5px solid #FFFFFF;
 	padding: .4em;
 }
