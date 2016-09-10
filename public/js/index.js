@@ -36,7 +36,7 @@ $(function() {
 		unbindButtons();
 		$('#stfButton').addClass("selected");
 
-		$('#image').html('<a href="https://www.uwstf.org" target="_blank"><img id="picture" src="img/stf.png" class="img-responsive"></a>');
+		$('#image').html('<a href="http://www.uwstf.org" target="_blank"><img id="picture" src="img/stf.png" class="img-responsive"></a>');
 		$('#description').html('<p>The Student Technology Fee is a fund established to supplement the availability of technology to UW students. This fund provides for capital investments in technology and projects that improve students’ educational opportunities. The Committee solicits proposals from campus units for projects that meet the technology needs of students. These awards are intended to be one-time sources of funding. </p><p>The STF website was built this last year using Node.js with Express, MySQL and jQuery.</p>');
 	});
 
